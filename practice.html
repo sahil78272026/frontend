@@ -1,0 +1,44 @@
+<html>
+<h1 class="hello">
+    Hello World
+</h1>
+
+
+<script>
+    const var1 = document.getElementsByClassName("hello"); // getting all the elements by ClassName in an array
+    var1[0].innerHTML = "Changed"; // changing the HTML part of first element
+</script>
+
+
+<body>
+<!-- Changing attribute of an html tag-->
+<h2>What Can JavaScript Do?</h2>
+<p>JavaScript can change HTML attribute values.</p>
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+<button onclick="document.getElementById('myImage').src='card.jpg'">Turn on the light</button>
+<img id="myImage" src="" style="width:100px">
+<button onclick="document.getElementById('myImage').src='welcome.jpg'">Turn off the light</button>
+<!-- Changing attribute of an html tag-->
+
+<!-- changing style of an html tag or setting -->
+
+<p>*********************************</p>
+
+<p id="demo">A Paragraph</p>
+
+<button type="button" onclick="myFunctionToBlue()">Try it</button>
+<button type="button" onclick="myFunctionToRed()">Try it</button>
+
+<script>
+function myFunctionToBlue() {
+  document.getElementById("demo").style.color = "blue";
+}
+
+function myFunctionToRed() {
+  document.getElementById("demo").style.color = "Red";
+}
+</script>
+
+
+</body>
+<html>
